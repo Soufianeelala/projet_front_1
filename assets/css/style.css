@@ -6,6 +6,7 @@
     list-style: none;
 }
 header nav{
+    margin-top: 10px;
     display: block;
 }
 header nav ul{
@@ -77,4 +78,37 @@ footer a {
 }
 footer p{
     padding-left: 20px;
+}
+/* ////////////////////////// */
+body img {
+    height: 240px ;
+    width: 320px;
+    border-radius: 5%;
+}
+.contenair{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-self: center;
+    align-items: center;  
+    background-color: rgb(9, 9, 9);
+    height: 100%;
+    
+    
+
+}
+.contenair1{
+    background-color: aliceblue;
+    padding-left: 30px;
+    padding-right: 30px;
+    height: : 100%;
+
+}
+.parti1, .parti2, .parti3 {
+    display: flex;
+    justify-content: center;
+    gap: 20px; 
+    width: 100%; 
+    margin: 10px 0; 
 }
